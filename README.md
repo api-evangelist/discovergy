@@ -64,17 +64,57 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Inexogy Smart Metering GmbH provides intelligent electricity metering solutions, offering digital smart meters, data acquisition, and platform services for utilities, property owners, and end‑users. The company focuses on accurate consumption measurement, integration with renewable energy sources, and enabling energy‑efficiency applications across Germany and Europe.
+Inexogy is a German smart‑metering specialist offering interoperable gateway platforms and data services to enable real‑time energy consumption transparency. For over a decade it operates as a nationwide meter data provider, supporting utilities, energy suppliers, and installers with high‑resolution measurements, dynamic tariff integration and tenant‑energy solutions. The company emphasizes sustainable energy transition, renewable integration and customer‑centric digital services.
 
-**Areas:** SmartMeter · Energy · IoT · Germany · SaaS
+**Areas:** Company · SmartMetering · Energy · DataPlatform · Germany
 
 ## inexogy on APIs.io
 
 Everything profiled for inexogy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/discovergy/](https://apis.io/providers/discovergy/)** — or go straight to one of the APIs or properties below.
 
+### APIs (8)
+
+- [inexogy Access API](https://apis.io/apis/discovergy/discovergy-access-api/) — The Access API from inexogy — 1 operation(s) for access.
+- [inexogy Calendar API](https://apis.io/apis/discovergy/discovergy-calendar-api/) — The Calendar API from inexogy — 2 operation(s) for calendar.
+- [inexogy Disaggregation API](https://apis.io/apis/discovergy/discovergy-disaggregation-api/) — The Disaggregation API from inexogy — 3 operation(s) for disaggregation.
+- [inexogy Load Profile API](https://apis.io/apis/discovergy/discovergy-loadprofile-api/) — The LoadProfile API from inexogy — 1 operation(s) for loadprofile.
+- [inexogy Metadata API](https://apis.io/apis/discovergy/discovergy-metadata-api/) — The Metadata API from inexogy — 5 operation(s) for metadata.
+- [inexogy O Auth1 API](https://apis.io/apis/discovergy/discovergy-oauth1-api/) — The OAuth1 API from inexogy — 4 operation(s) for oauth1.
+- [inexogy Readings API](https://apis.io/apis/discovergy/discovergy-readings-api/) — The Readings API from inexogy — 3 operation(s) for readings.
+- [inexogy Virtual API](https://apis.io/apis/discovergy/discovergy-virtual-api/) — The Virtual API from inexogy — 1 operation(s) for virtual.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [inexogy Agentic Access](https://apis.io/agentic-access/discovergy/discovergy-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Activity](https://apis.io/schemas/discovergy/discovergy-activity/)
+- [Calendar](https://apis.io/schemas/discovergy/discovergy-calendar/)
+- [CalendarInterval](https://apis.io/schemas/discovergy/discovergy-calendar-interval/)
+- [EnergyByDeviceMeasurement](https://apis.io/schemas/discovergy/discovergy-energy-by-device-measurement/)
+- [Measurement](https://apis.io/schemas/discovergy/discovergy-measurement/)
+- [Meter](https://apis.io/schemas/discovergy/discovergy-meter/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Discovergy Context](https://apis.io/jsonld/discovergy/discovergy-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [inexogy API Rules](https://apis.io/rules/discovergy/discovergy-rules/)
 
 #### Security (1)
 
@@ -87,8 +127,7 @@ Authentication, trust centre, and vulnerability disclosure.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.inexogy.com/)
-- [Pricing](https://www.inexogy.com/kontakt/)
-- [Support](https://www.inexogy.com/kontakt/)
+- [Documentation](https://www.inexogy.com/ueber-uns/)
 - [Blog](https://www.inexogy.com/blog/)
 - [Terms of service](https://www.inexogy.com/terms/)
 - [Privacy policy](https://www.inexogy.com/datenschutz/)
@@ -96,33 +135,33 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 12.2** — emerging · rubric 0.28.0 · scored 2026-11-17
+**Kin Score 38.9** — thin · rubric 0.27.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
-| Discoverability | 48.2 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
-| Operational transparency | 14.3 |
-| Developer ergonomics | 7.1 |
-| Access clarity | 25.5 |
+| Discoverability | 66.1 |
+| Contract quality | 47.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 21.1 |
 
-**Agent readiness 3.1** — human-only
+**Agent readiness 29.1** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
-| Agentic Access | — |
+| Spec Presence | yes |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -130,11 +169,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 6.6** — Energy & Utilities
+**Regulatory alignment 15.6** — Energy & Utilities
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/discovergy/](https://apis.io/providers/discovergy/).
 
